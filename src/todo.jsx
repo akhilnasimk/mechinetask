@@ -12,7 +12,8 @@ function Todo(){
         a.current.value=""
     }
     return(
-        <>        
+        <>    
+        <h1>Todo App</h1>
         <input type="text" ref={a}></input><br>
         </br>
         <button onClick={add}>ADD</button>
