@@ -7,7 +7,7 @@ function Item(prop){
     }
     return(
         <>
-        <div style={{display:"flex"}}> 
+        <div style={{display:"flex" ,backGroundColor:"white"}}> 
         <p>{prop.message}</p>
         <button onClick={remove}>Remove</button>
         </div>
